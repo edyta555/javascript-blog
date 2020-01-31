@@ -63,7 +63,33 @@ body {
   border: 1px solid $color-dark;
   border-radius: 5px;
 }
-
+.tag-size-5 {
+  font-size: 100%;
+}
+.tag-size-4 {
+  font-size: 95%;
+}
+.tag-size-3 {
+  font-size: 90%;
+}
+.tag-size-2 {
+  font-size: 85%;
+}
+.tag-size-1 {
+  font-size: 80%;
+}
+.sidebar {
+  .tags {
+    li {
+      display: inline-block;
+    }
+  }
+   .authors {
+    li {
+      display: inline-block;
+    }
+  }
+}
 /* Logo */
 
 .logo {
