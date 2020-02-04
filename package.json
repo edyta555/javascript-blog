@@ -11,6 +11,7 @@
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
     "test:js": "eslint js/",
+    "test:scss": "stylelint sass/",
     "build": "npm-run-all build:* test",
     "build:sass": "node-sass --output-style compact -o css sass",
     "build:autoprefixer": "autoprefixer-cli css/style.css",
@@ -32,7 +33,9 @@
     "node-sass": "^4.13.0",
     "npm-run-all": "^4.1.5",
     "nu-html-checker": "^0.1.0",
-    "onchange": "^6.1.0"
+    "onchange": "^6.1.0",
+    "stylelint": "^13.0.0",
+    "stylelint-scss": "^3.14.2"
   },
   "dependencies": {}
 }
